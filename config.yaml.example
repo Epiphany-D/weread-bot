@@ -109,7 +109,7 @@ notification:
     runtime_error: true          # 程序级错误
     general: true                # 其它通用通知
   # 语法糖：仅失败时通知（等价于将 session_success 和 multi_user_summary 设为 false）
-  only_on_failure: false
+  only_on_failure: true
   
   # 通知通道配置（支持多个通道同时使用）；每个通道需 name、enabled、config
   channels:
