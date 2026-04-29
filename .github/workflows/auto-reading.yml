@@ -42,7 +42,7 @@ on:
       notify_only_on_failure:
         description: '仅失败时发送通知'
         required: false
-        default: false
+        default: true
         type: boolean
       history_enabled:
         description: '启用执行历史持久化'
